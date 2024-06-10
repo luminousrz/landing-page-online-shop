@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه‌من</title>
+    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./style/rSlider.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/custome.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between">
+                    <div class="navbar-right d-inline-flex">
+                        <a href="#">
+                            <img src="./images/Logo.png">
+                        </a>
+                        <ul class="nav align-items-center pe-1 d-lg-flex d-none">
+                            <li class="nav-item">
+                                <a class="nav-link line-hover active" aria-current="page" href="#">خانه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">فروشگاه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">دسته‌بندی‌ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">کالکشن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link line-hover" href="#">درباره‌ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-left d-inline-flex">
+                        <ul class="nav align-items-center">
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-sm-flex d-none">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex d-md-none">
+                                <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                                <div class="offcanvas offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">منوراهبری</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="nav flex-column pe-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                                                <hr class="my-1">
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">فروشگاه</a>
+                                                <hr class="my-1">
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">دسته‌بندی‌ها</a>
+                                                <hr class="my-1">
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">کالکشن</a>
+                                                <hr class="my-1">
+                                            </li> 
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">درباره‌ما</a>
+                                                <hr class="my-1">
+                                            </li> 
+                                        </ul>
+                                        <ul class="nav align-items-center pe-0 p-2 d-flex d-sm-none">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fa-solid fa-user"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fa-solid fa-heart"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HORIZONTAL MENU -->
+    <section id="horizontal-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4>فروشگاه</h4>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="list-inline">
+                    <li class="list-inline-item me-0 ms-0 ">
+                      <a href="#">کاپشن</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0 ">
+                      <a href="#">هودی</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0">
+                      <a href="#">مردانه</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0">
+                        <a href="#">زنانه</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0 ">
+                        <a href="#">تی‌شرت</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0 ">
+                        <a href="#">کفش</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0 ">
+                        <a href="#">اکسسوری</a>
+                    </li>
+                    <li class="list-inline-item me-0 ms-0 ">
+                        <a href="#">مجلسی</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </section>
+    <!-- LITTLE TEXTS -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="Products1">
+                    <div class="text-above-product d-flex justify-content-between">
+                        <div class="first-text-above-product d-flex position-relative"></a>
+                            <div class="d-flex d-md-none">
+                                <a data-bs-toggle="offcanvas" href="#offcanvasExample2" aria-controls="offcanvasExample2">
+                                    <i class="fa-solid fa-bars ms-2"></i>
+                                </a>
+                                <div class="offcanvas offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">منوراهبری</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingOne">
+                                                      <button class="accordion-button collapsed first-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        <div class="sidebar-first-title">
+                                                            دسته‌محصولات
+                                                        </div>
+                                                      </button>
+                                                    </h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-collapse">
+                                                      <div class="accordion-body">
+                                                        <div class="sidebar-first-content">
+                                                            <ul>
+                                                                <li><a href="#">لباس‌ها</a></li>
+                                                                <li><a href="#">سویشرت</a></li>
+                                                                <li><a href="#">کاپشن</a></li>
+                                                                <li><a href="#">شلوارجین</a></li>
+                                                                <li><a href="#">مردانه</a></li>
+                                                                <li><a href="#">شلوارک</a></li>
+                                                                <li><a href="#">لباس‌شنا</a></li>
+                                                                <li><a href="#">تیشرت و تاپ</a></li>
+                                                                <li><a href="#">ژاکت‌پشمی</a></li>
+                                                            </ul>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                                        <button class="accordion-button collapsed second-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                            <div class="sidebar-second-title">
+                                                            رنگ‌ها
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-collapse">
+                                                        <div class="accordion-body">
+                                                            <div class="sidebar-second-content">
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #4f366a"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #ce4f88;"></span>
+                                                                </label>
+                                                                 <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #4f88ce;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #e8c5d5;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #a6d7ee;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #00a400;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #a2ac5b;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #ff9900;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #91b6ae;"></span>
+                                                                </label>
+                                                                <label class="Scontainer">
+                                                                    <input type="checkbox">
+                                                                    <span class="checkmark" style="background-color: #b10606;"></span>
+                                                                </label>
+                                                        </div>
+                                                        </div>
+                                                      </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingThree">
+                                                        <button class="accordion-button collapsed third-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                            <div class="sidebar-third-title">
+                                                            سایزها
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion-collapse">
+                                                        <div class="accordion-body">
+                                                            <div class="sidebar-third-content">
+                                                                <label class="theSizeContainer">
+                                                                    <input class="checkbox" type="checkbox">
+                                                                    <span class="checkmark">XL</span>
+                                                                </label>
+                                                                <label class="theSizeContainer">
+                                                                    <input class="checkbox" type="checkbox">
+                                                                    <span class="checkmark">L</span>
+                                                                </label>
+                                                                <label class="theSizeContainer">
+                                                                    <input class="checkbox" type="checkbox">
+                                                                    <span class="checkmark">M</span>
+                                                                </label>
+                                                                <label class="theSizeContainer">
+                                                                    <input class="checkbox" type="checkbox">
+                                                                    <span class="checkmark">S</span>
+                                                                </label>
+                                                                <label class="theSizeContainer">
+                                                                    <input class="checkbox" type="checkbox">
+                                                                    <span class="checkmark">XS</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="flush-headingFour">
+                                                        <button class="accordion-button collapsed Fourth-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                            <div class="sidebar-fourth-title d-flex">
+                                                                برندها
+                                                            </div>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion-collapse">
+                                                        <div class="accordion-body">
+                                                            <div class="sidebar-fourth-content">
+                                                                <div class="search-box">
+                                                                    <div class="input-group mb-3">
+                                                                        <input type="text" class="form-control" placeholder="سرچ‌کنید" aria-label="سرچ‌کنید" aria-describedby="basic-addon2">
+                                                                        <div class="input-group-append">
+                                                                        <button class="btn btn-outline-secondary" type="button">
+                                                                            <i class="fas fa-search"></i>
+                                                                        </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="brands">
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">لویی‌ویتون</label>
+                                                                        </div>
+                                                                        <span>۲</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">گوچی</label>
+                                                                        </div>
+                                                                        <span>۷</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">دیور</label>
+                                                                        </div>
+                                                                        <span>۱۹</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">بربری</label>
+                                                                        </div>
+                                                                        <span>۳۷</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">کلوین‌کلاین</label>
+                                                                        </div>
+                                                                        <span>۹۵</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">پرادا</label>
+                                                                        </div>
+                                                                        <span>۱۰۹۲</span>
+                                                                    </div>
+                                                                    <div class="brands-item-wrapper d-flex justify-content-between">
+                                                                        <div class="brands-item">
+                                                                            <input type="checkbox" id="brands" name="brands">
+                                                                            <label for="barnds">کارتیر</label>
+                                                                        </div>
+                                                                        <span>۸۳</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p><a href="#">خانه  /  فروشگاه</a></p>
+                        </div>
+                        <div class="second-text-above-product d-flex position-relative">
+                            <p>دسته‌بندی پیش‌فرض
+                                <span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </p>
+                            <div class="third-text-above-product d-flex">
+                                <p>نمایش</p>
+                                <ul class="list-inline pe-0">
+                                    <li class="list-inline-item"><a href="#">1</a></li>
+                                    <li class="list-inline-item"><a href="#">2</a></li>
+                                    <li class="list-inline-item"><a href="#">3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SIDE BAR AND MAIN CONTENT -->
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                              <button class="accordion-button collapsed first-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="sidebar-first-title">
+                                    دسته‌محصولات
+                                </div>
+                              </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-collapse">
+                              <div class="accordion-body">
+                                <div class="sidebar-first-content">
+                                    <ul>
+                                        <li><a href="#">لباس‌ها</a></li>
+                                        <li><a href="#">سویشرت</a></li>
+                                        <li><a href="#">کاپشن</a></li>
+                                        <li><a href="#">شلوارجین</a></li>
+                                        <li><a href="#">مردانه</a></li>
+                                        <li><a href="#">شلوارک</a></li>
+                                        <li><a href="#">لباس‌شنا</a></li>
+                                        <li><a href="#">تیشرت و تاپ</a></li>
+                                        <li><a href="#">ژاکت‌پشمی</a></li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed second-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <div class="sidebar-second-title">
+                                    رنگ‌ها
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-collapse">
+                                <div class="accordion-body pt-3">
+                                    <div class="sidebar-second-content">
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #4f366a"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #ce4f88;"></span>
+                                            </label>
+                                             <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #4f88ce;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #e8c5d5;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #a6d7ee;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #00a400;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #a2ac5b;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #ff9900;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #91b6ae;"></span>
+                                            </label>
+                                            <label class="Scontainer">
+                                                <input type="checkbox">
+                                                <span class="checkmark" style="background-color: #b10606;"></span>
+                                            </label>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed third-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <div class="sidebar-third-title">
+                                    سایزها
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion-collapse">
+                                <div class="accordion-body">
+                                    <div class="sidebar-third-content">
+                                        <label class="theSizeContainer">
+                                            <input class="checkbox" type="checkbox">
+                                            <span class="checkmark">XL</span>
+                                        </label>
+                                        <label class="theSizeContainer">
+                                            <input class="checkbox" type="checkbox">
+                                            <span class="checkmark">L</span>
+                                        </label>
+                                        <label class="theSizeContainer">
+                                            <input class="checkbox" type="checkbox">
+                                            <span class="checkmark">M</span>
+                                        </label>
+                                        <label class="theSizeContainer">
+                                            <input class="checkbox" type="checkbox">
+                                            <span class="checkmark">S</span>
+                                        </label>
+                                        <label class="theSizeContainer">
+                                            <input class="checkbox" type="checkbox">
+                                            <span class="checkmark">XS</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed Fourth-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    <div class="sidebar-fourth-title d-flex">
+                                        برندها
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion-collapse">
+                                <div class="accordion-body">
+                                    <div class="sidebar-fourth-content">
+                                        <div class="search-box">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="سرچ‌کنید" aria-label="سرچ‌کنید" aria-describedby="basic-addon2">
+                                                <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary" type="button">
+                                                    <i class="fas fa-search"></i>
+                                                </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brands">
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">لویی‌ویتون</label>
+                                                </div>
+                                                <span>۲</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">گوچی</label>
+                                                </div>
+                                                <span>۷</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">دیور</label>
+                                                </div>
+                                                <span>۱۹</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">بربری</label>
+                                                </div>
+                                                <span>۳۷</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">کلوین‌کلاین</label>
+                                                </div>
+                                                <span>۹۵</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">پرادا</label>
+                                                </div>
+                                                <span>۱۰۹۲</span>
+                                            </div>
+                                            <div class="brands-item-wrapper d-flex justify-content-between">
+                                                <div class="brands-item">
+                                                    <input type="checkbox" id="brands" name="brands">
+                                                    <label for="barnds">کارتیر</label>
+                                                </div>
+                                                <span>۸۳</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="sidebar-fifth-title d-flex align-items-center">
+                            <p>قیمت</p>
+                            <a href="#"><i class="fa-solid fa-chevron-up"></i></a>
+                        </div>
+                        <div class="sidebar-fifth-content">
+                            <input type="text" id="sampleSlider" />
+                            <div class="text-below-rangeSlider d-flex justify-content-between">
+                                <span>۳,۵۰۰,۰۰تومان</span>
+                                <span>۲۹۰,۰۰۰تومان</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="row">
+                        <div class="Products">
+                            <div class="text-above-product d-flex justify-content-between  ">
+                                <div class="first-text-above-product d-flex position-relative">
+                                    <p><a href="#">خانه  /  فروشگاه</a></p>
+                                </div>
+                                <div class="second-text-above-product d-flex position-relative">
+                                    <p>دسته‌بندی پیش‌فرض
+                                        <span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                        </span>
+                                    </p>
+                                    <div class="third-text-above-product d-flex">
+                                        <p>نمایش</p>
+                                        <ul class="list-inline pe-0">
+                                            <li class="list-inline-item"><a href="#">1</a></li>
+                                            <li class="list-inline-item"><a href="#">2</a></li>
+                                            <li class="list-inline-item"><a href="#">3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!---- FIRST PRODUCT ---->
+                        <div class="col-lg-6 col-12 mb-3">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic1.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>شومیز‌پشمالو</h6>
+                                    <span class="product-price">558,000</span><span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- SECOND PRODUCT ---->
+                        <div class="col-lg-6 col-12 mb-3 ">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic2.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>کت‌چرم‌کوتاه</h6>
+                                    <div class="product-card-price-off">
+                                        <del>1,465,000</del>
+                                        <span>875,000 تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- THIRD PRODUCT ---->
+                        <div class="col-lg-6 col-12 mb-3">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic4.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>تدی‌کوتاه‌داخل‌کرک</h6>
+                                    <div class="product-card-price-off">
+                                        <del>630,000</del>
+                                        <span>410,000 تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- FOURTH PRODUCT ---->
+                        <div class="col-lg-6 col-12 mb-3">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic7.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>کت‌چهارخونه</h6>
+                                    <span class="product-price">750,000</span><span>تومان</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- FIFTH PRODUCT ---->
+                        <div class="col-lg-6 col-12 mb-lg-5 mb-sm-3">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic6.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>کت‌بلند‌قهوه‌ای</h6>
+                                    <div class="product-card-price-off">
+                                        <del>1,280,000</del>
+                                        <span>1,050,000 تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- SIXTH PRODUCT ---->
+                        <div class="col-lg-6  col-12 mb-5 ">
+                            <div class="product-card">
+                                <div class="product-card-image-wrapper">
+                                    <div class="product-image" style="background-image: url(./images/pic5.jpg);"></div>
+                                </div>
+                                <div class="product-text">
+                                    <div class="product-icon d-flex justify-content-between mt-1">
+                                        <a href="#"><p>لباس‌ها</p></a>
+                                        <a href="#"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <h6>شومیز‌پشمالو</h6>
+                                    <div class="product-card-price-off">
+                                        <del>558,000</del>
+                                        <span>320,000 تومان</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <nav id="pagination">
+                                <div class="d-flex justify-content-between">
+                                    <div class="prev-paginate d-flex align-items-center">
+                                        <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                                        <a href="#"><p>بعد</p></a>
+                                    </div>
+                                    <div class="paginate-num d-flex align-items-center">
+                                        <ul class="list-inline pe-0 mb-0">
+                                            <li class="list-inline-item"><a href="#">1</a></li>
+                                            <li class="list-inline-item"><a href="#">2</a></li>
+                                            <li class="list-inline-item"><a href="#">3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="next-paginate d-flex align-items-center">
+                                        <a href="#"><p>قبل</p></a>
+                                        <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="about">
+                            <img src="./images/Logo.png" width="60px">
+                            <p>استان گیلان ، رشت ، خیابان امام خمینی </p>
+                            <ul>
+                                <li><a href="#">example@gmail.com</a></li>
+                                <li><a href="#">+98 987 235 5645</a></li>
+                            </ul>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1 order-2">
+                        <div class="row">
+                            <div class="col-4">
+                               <div class="footer-vertical-list">
+                                    <h5>کمپانی</h5>
+                                    <ul>
+                                        <li><a href="#">درباره‌ما</a></li>
+                                        <li><a href="#">تماس‌باما</a></li>
+                                        <li><a href="#">حرفه</a></li>
+                                        <li><a href="#">‌بلاگ</a></li>
+                                        <li><a href="#">دسته‌بندی‌ها</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-vertical-list">
+                                    <h5>فروشگاه</h5>
+                                    <ul>
+                                        <li><a href="#">دسته‌بندی‌ها</a></li>
+                                        <li><a href="#" >اکسسوری‌ها</a></li>
+                                        <li><a href="#">مرد</a></li>
+                                        <li><a href="#">زن</a></li>
+                                        <li><a href="#">‌خرید</a></li>
+                                        <li><a href="#">جدیدترین</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="footer-vertical-list">
+                                    <h5>راهنمایی</h5>
+                                    <ul>
+                                        <li><a href="#">حساب‌کاربری‌من</a></li>
+                                        <li><a href="#">کارت‌هدیه</a></li>
+                                        <li><a href="#">قوانین</a></li>
+                                        <li><a href="#">سرویس‌های‌مشتری</a></li>
+                                        <li><a href="#">جدیدترین</a></li>
+                                    </ul>
+                               </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-lg-3 col-sm-6 order-lg-2 order-1">
+                        <div class="subscribe">
+                            <h5>جوین‌شدن</h5>
+                            <p>اولین نفری باشید که از آخرین خبرها و ترندهای روز با خبر می‌شوید.</p>
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" placeholder="ایمیل‌خودرا‌وارد‌کنید." aria-label="ایمیل‌خودراواردکنید." aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">ارسال</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                    <div class="col-12">
+                        <div class="divider"></div>
+                    </div>
+                <div class="row">
+                    <div class="col-4">
+                        <span>onlineshop.com - 2023 © Copyright</span>
+                    </div>
+                    <div class="col-8">
+                        <div class="change-value d-flex justify-content-md-end justify-content-start">
+                            <span>واحدپول</span>
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  تومان
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="pe-2">تومان</li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="pe-2">ریال</li>
+                                </ul>
+                            </div>
+                            <span>زبان‌سایت</span>
+                            <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  فارسی
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="pe-2">فارسی</li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li class="pe-2">انگلیسی</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/rSlider.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        var mySlider = new rSlider({
+         target: '#sampleSlider',
+         values: [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015],
+         range: true,
+         tooltip: true,
+         scale: true,
+         labels: true,
+         set: [2010, 2013]
+     });
+   </script>
+</body>
+</html>
